@@ -1,9 +1,9 @@
 const typedTextSpan = document.querySelector(".typed-text")
 const cursorSpan = document.querySelector(".cursor")
 
-const textArray = ["Eric Barrero", "AdverseGecko3"];
+const textArray = ["Eric Barrero", "AdverseGecko3", "an Android Developer", "ready to learn every day!"];
 const typingDelay = 100;
-const erasingDelay = 75;
+const erasingDelay = 50;
 const newTextDelay = 2000;
 let textArrayIndex = 0;
 let charIndex = 0;
@@ -35,5 +35,5 @@ function erase() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    if (textArray.length) setTimeout(type, newTextDelay + 250);
+    if (textArray.length) setTimeout(type, 500);
 })
