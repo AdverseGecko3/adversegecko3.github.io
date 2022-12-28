@@ -23,13 +23,13 @@ const changeLanguage = async (language) => {
 const textArrayEn = [
   "Eric Barrero",
   "AdverseGecko3",
-  "an Android Developer",
+  "a Software Developer",
   "ready to learn every day!",
 ];
 const textArrayEs = [
   "Eric Barrero",
   "AdverseGecko3",
-  "un desarrollador Android",
+  "un Desarrollador de Software",
   "alguien listo para aprender cada día!",
 ];
 
